@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(47, 47, 189);
+    font-family: normal 15pt arial;
+}
+
+section{
+        background: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin: auto;
+        width: 500px;
+}
+
+footer {
+    color: white;
+}
