@@ -3,6 +3,8 @@
 body{
     background-color: rgb(47, 47, 189);
     font-family: normal 15pt arial;
+    text-align: center;
+    color: white;
 }
 
 section{
@@ -11,8 +13,14 @@ section{
         border-radius: 10px;
         margin: auto;
         width: 500px;
+        color: black;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
 }
+
+
 
 footer {
     color: white;
+    text-align: center;
+    font-style: italic;
 }

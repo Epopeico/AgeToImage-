@@ -9,11 +9,32 @@
 </head>
 <body>
     <header>
-
+            <h1> Verificador de idade</h1>
     </header>
 
     <section>
+            <div>
+                <p> Ano nascimento: 
+                    <input type="number" name="txtyear" id="txtyear">
+                </p>
+                
+                <p> 
+                    Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculuno</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem"> Feminino</label>
+                </p>
 
+                <p>
+                    <input type="button" value="verificar" onclick="check()">
+                </p>
+            </div>
+
+
+            <div id="answer"> 
+                preencha os dados acima para ver o resultado
+            </div>
     </section>
 
     <footer>
@@ -23,4 +44,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
